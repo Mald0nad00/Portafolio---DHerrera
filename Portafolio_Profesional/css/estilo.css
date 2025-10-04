@@ -15,4 +15,14 @@ h1, h2{
 p{
     font-family: "Playfair Display";
 }
+#foto-perfil{
+    border-radius: 20px;
+    box-shadow: 2px 0 15px 5px #3333;
+}
+article{
+    padding: 10px;
+    border: 1px solid #000;
+    width: 33%;
+    float: left;
+}
 /*Principios de usabilidad de JAKOB NIELSEN*/
