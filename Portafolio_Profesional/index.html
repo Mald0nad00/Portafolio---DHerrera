@@ -4,7 +4,7 @@
     <head>
         <title>Portafolio profesional</title>
         <!-- ESTE ES UN TITULO -->
-         <link rel="stylesheet" href="/Portafolio_Profesional/css/estilo.css">
+        <link rel="stylesheet" href="/Portafolio_Profesional/css/estilo.css">
     </head>
     <body>
         <!-- AQUÍ VA TODO LO QUE EL USUARIO VE -->
@@ -15,15 +15,28 @@
             <p>Desarrollador fullstak | Estudiante de Ingería en TI</p>
         </header>
         <!-- CREANDO UN MENÚ DE NAVEGACIÓN-->
-        <nav>
-            <a href="#"> Inicio</a>
+        <nav id="menu-principal">
             <!-- CREA UN ENLACE -->
-            <a href="#"> Sobre mí</a>
-            <a href="#">Mi experiencia</a>
-            <a href="#">Contáctame</a>
+            <ul>
+                <li>
+                    <a href="#bienvenida"> Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#experiencia">Mi 
+                    experiencia</a>
+                </li>
+                <li>
+                    <a href="#habilidades">
+                        Habilidades
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Contáctame</a>
+                </li>
+            </ul>
         </nav>
         <main>
-            <section>
+            <section id="bienvenida">
                 <h2>Bienvenidos a mi portafolio Profesional</h2>
                 <p>
                     Soy <mark>David Alejandro Herrera Maldonado</mark> me especializo
@@ -46,78 +59,127 @@
                     <p>Actualmente estudio la carrera de Tecnologías de la Información e Innovación Digital</p>
                 </aside>
             </section>
-            <section>
+            <section id="experiencia">
                 <h2>Experiencia profesional.</h2>
-                <article>
-                <!--En los articulos van -->
-                <h3>Proyecto Integrador</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <time datetime="2025-05">Mayo 2025</time> - <time datetime="2025-07">Julio 2025</time>
-                <ul>
-                    <li>
-                        Tecnologías .NET
-                    </li>
-                    <li>
-                        Gestión de inventarios
-                    </li>
-                    <li>
-                        Basado en la ODS
-                    </li>
-                    <li>
-                        Trabajo en Equipo
-                    </li>
-                    <li>
-                        Uso de repositorios en GitHub.
-                    </li>
+                <div id="lista-proyectos">
+                    <article class="proyecto">
+                    <!--En los articulos van -->
+                    <h3>Proyecto Integrador</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <time datetime="2025-05">Mayo 2025</time> - <time datetime="2025-07">Julio 2025</time>
+                    <ul>
+                        <li>
+                            Tecnologías .NET
+                        </li>
+                        <li>
+                            Gestión de inventarios
+                        </li>
+                        <li>
+                            Basado en la ODS
+                        </li>
+                        <li>
+                            Trabajo en Equipo
+                        </li>
+                        <li>
+                            Uso de repositorios en GitHub.
+                        </li>
+                    </ul>
+                    </article>
+                    <article class="proyecto">
+                    <!--En los articulos van -->
+                    <h3>Proyecto Integrador 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <time datetime="2025-05">Mayo 2025</time> - <time datetime="2025-07">Julio 2025</time>
+                    <ul>
+                        <li>
+                            Tecnologías .NET
+                        </li>
+                        <li>
+                            Gestión de inventarios
+                        </li>
+                        <li>
+                            Basado en la ODS
+                        </li>
+                        <li>
+                            Trabajo en Equipo
+                        </li>
+                        <li>
+                            Uso de repositorios en GitHub.
+                        </li>
+                    </ul>
+                    </article>
+                    <article class="proyecto">
+                    <!--En los articulos van -->
+                    <h3>Proyecto Integrador 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <time datetime="2025-05">Mayo 2025</time> - <time datetime="2025-07">Julio 2025</time>
+                    <ul>
+                        <li>
+                            Tecnologías .NET
+                        </li>
+                        <li>
+                            Gestión de inventarios
+                        </li>
+                        <li>
+                            Basado en la ODS
+                        </li>
+                        <li>
+                            Trabajo en Equipo
+                        </li>
+                        <li>
+                            Uso de repositorios en GitHub.
+                        </li>
                 </ul>
-                </article>
-                <article>
-                <!--En los articulos van -->
-                <h3>Proyecto Integrador 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <time datetime="2025-05">Mayo 2025</time> - <time datetime="2025-07">Julio 2025</time>
-                <ul>
-                    <li>
-                        Tecnologías .NET
-                    </li>
-                    <li>
-                        Gestión de inventarios
-                    </li>
-                    <li>
-                        Basado en la ODS
-                    </li>
-                    <li>
-                        Trabajo en Equipo
-                    </li>
-                    <li>
-                        Uso de repositorios en GitHub.
-                    </li>
+                    </article>
+                </div>
+            </section>
+            <section id="habilidades">
+                <h2>Habilidades y competencias</h2>
+                <h3>Lenguajes y Tecnologías</h3>
+                <ul class="lista-tecnologias">
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Js</li>
+                    <li>C#</li>
                 </ul>
-                </article>
-
-                <article>
-                <!--En los articulos van -->
-                <h3>Proyecto Integrador 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <time datetime="2025-05">Mayo 2025</time> - <time datetime="2025-07">Julio 2025</time>
-                <ul>
-                    <li>
-                        Tecnologías .NET
-                    </li>
-                    <li>
-                        Gestión de inventarios
-                    </li>
-                    <li>
-                        Basado en la ODS
-                    </li>
-                    <li>
-                        Trabajo en Equipo
-                    </li>
-                    <li>
-                        Uso de repositorios en GitHub.
-                    </li>
-                </ul>
-                </article>
+                <h3>Niveles de dominio</h3>
+                <div>
+                    <label for="">HTML5</label>
+                    <progress max="100" value="80">80%</progress>
+                </div>
+                <div>
+                    <label for="">CSS</label>
+                    <progress max="100" value="50">50%</progress>
+                </div>
+                <div>
+                    <label for="">Java Script</label>
+                    <progress max="100" value="20">20%</progress>
+                </div>
+                <div>
+                    <label for="">C#</label>
+                    <progress max="100" value="50">50%</progress>
+                </div>
+            </section>
+            <section id="contacto">
+                <h2>Contáctame</h2>
+                <form action="">
+                    <div class="campos">
+                        <label for="">Nombre completo</label>
+                        <input type="text" value="" placeholder="David Herrera" required>
+                    </div>
+                    <div class="campos">
+                        <label for="">Correo electronico</label>
+                        <input type="email" placeholder="david@gmail.com">
+                    </div>
+                    <div class="campos">
+                        <label for="">Mensaje</label>
+                        <textarea name="" id="" required></textarea>
+                    </div>
+                    <div class="campos">
+                        <!--<input type="button" value="Enviar">-->
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
             </section>
         
         </main>
